@@ -39,7 +39,7 @@ p{
 div{
     color: red;
     width: 20px;
-    height: 20px;
+    height: 200px;
 }
 
 
@@ -68,7 +68,7 @@ footer > p{
     margin-bottom: 0;
 }
 
-@media screen an (max-width:1000px) {
+@media screen and (max-width:1000px) {
     article{
         width: 80vw;
     }
@@ -92,4 +92,23 @@ footer > p{
         width: 100vw;
         padding: 20px;
     }
+}
+a{
+    background-color: darkred;
+    color: lightgray;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#naam{
+    width: 30%;
+    height: auto;
+}
+#parel{
+    width :100%;
+    font: left;
+    display: flex;
+    border: 4px solid #ddd;
 }
