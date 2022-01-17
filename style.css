@@ -52,6 +52,11 @@ header{
     margin: 0 auto;
     padding-left: 100px;
 }
+.language{
+    bottom: 60px;
+    left: 100px;
+}
+
 
 footer{
     background-color: #0D2546;
