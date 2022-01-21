@@ -50,7 +50,11 @@ header{
     height: 60px;
     color: white;
     margin: 0 auto;
-    padding-left: 100px;
+    padding-left: 340px;
+    padding-top: 10px;
+}
+span{
+    word-spacing: 100px;
 }
 .language{
     bottom: 60px;
