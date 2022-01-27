@@ -25,21 +25,6 @@ article{
     padding: 40px;
 }
 
-
-.advertentie{
-    height: 600px;
-    width: 0px;
-    position: absolute;
-    top: 1000px;
-    left: 10px;
-}
-.advertentie2{
-    height: 0px;
-    width: 175px;
-    position: absolute;
-    top: 1000px;
-    right: 10px;
-}
 img{
     width: 100%;
     border-radius: 10px;
