@@ -83,6 +83,22 @@ h2{
     color: white;
 }
 
+.calltoaction{
+    width: 300px;
+    height: 120px;
+    background-color: #003C81;
+}
+
+button{
+    width: 120px;
+    height: 30px;
+    background: #0D2546;
+}
+
+a{
+    color: #eee;
+}
+
 footer{
     background-color: #0D2546;
     height: 60px;
