@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #F7FEFF;
+    background-color: #111;
     font-size: 20px;
     font-family: sans-serif;
 }
@@ -13,15 +13,38 @@ body{
 h1{
     font-size: 250%;
     margin-bottom: 20px;
-    border-bottom: 2px solid cyan;
+    border-bottom: 5px solid #003C81;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    color: white;
 }
 
 article{
     width: 60vw;
     margin: 0 auto;
     padding: 40px;
+    background: #333;
 }
 
+h6{
+    color: white;
+}
+
+.advertentie{
+    height: 600px;
+    width: 0px;
+    position: absolute;
+    top: 1000px;
+    left: 10px;
+}
+.advertentie2{
+    height: 0px;
+    width: 175px;
+    position: absolute;
+    top: 1000px;
+    right: 10px;
+}
 img{
     width: 100%;
     border-radius: 10px;
@@ -30,11 +53,11 @@ img{
 
 p{
     margin-bottom: 10px;
+    color: white;
 }
 
 
 div{
-    width: 20px;
     height: 200px;
     margin-top: 40px;
 }
@@ -54,6 +77,10 @@ span{
 .language{
     bottom: 60px;
     left: 100px;
+}
+
+h2{
+    color: white;
 }
 
 footer{
