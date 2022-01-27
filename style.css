@@ -64,6 +64,12 @@ header{
     padding-left: 340px;
     padding-top: 10px;
 }
+
+.openingstijden{
+    border: 5px solid black;
+    width: 300px;
+    height: auto;
+}
 span{
     word-spacing: 100px;
 }
@@ -76,14 +82,36 @@ span{
 a{
     color: white;
     right: 0%;
+    background: #0D2546;
+
 }
 
+.reviews{
+    width: 500px;
+    font-size: 30px;
+}
+.de-naam{
+    font-size: 30px;
+    border: 2px solid black;
+}
+
+.comment-anne{
+    width: 500px;
+    height: auto;
+    font-size: 14px;
+}
+.comment-pieter{
+    width: 500px;
+    height: auto;
+    font-size: 14px;
+}
 footer{
     background-color: #0D2546;
     height: 60px;
     color: white;
     display: flex;
     align-items: center;
+    bottom: 100%;
 }
 
 footer > p{
