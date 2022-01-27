@@ -105,9 +105,14 @@ a{
     height: auto;
     font-size: 14px;
 }
+.comment-toxic{
+    width: 500px;
+    height: auto;
+    font-size: 14px;
+}
 footer{
     background-color: #0D2546;
-    height: 60px;
+    height: 90px;
     color: white;
     display: flex;
     align-items: center;
@@ -120,6 +125,7 @@ footer > p{
     padding-left: 40px;
     margin-bottom: 0;
 }
+
 
 #naam{
     width: 35%;
