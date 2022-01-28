@@ -82,9 +82,9 @@ span{
 
 a{
     color: white;
-    right: 0%;
+    right: 5%;
     background: #0D2546;
-
+    position: absolute;
 }
 
 .reviews{
@@ -143,6 +143,7 @@ footer > p{
     width :100%;
     font: left;
     display: flex;
+    margin-bottom: 80px;
 }
 
 @media screen and (max-width:1150px) {
