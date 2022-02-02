@@ -11,8 +11,15 @@
 
 <body>
     <header>
-        <p class="language"><span>language activiteiten openingstijden over-ons</span>
-        <a href="https://www.rijksmuseum.nl/nl/tickets/artikelen">tickets koopen</a></p>
+        <nav>
+            <ul>
+                <li><a href="#tentoonsteling">huidige tentoonsteling</a></li>
+                <li><a href="#openingstijden">openingstijden</a></li>
+                <li><a href="#reviews">reviews</a></li>
+                <li><a href="#route">interactive route</a></li>
+                <li><a class="red" href="https://www.rijksmuseum.nl/en/tickets/articles">tickets</a></li>
+            </ul>
+        </nav>
     </header>
     <img class="advertentie" src="images/revolusie-indonesie.jfif" alt="">
     <img class= "advertentie2"src="images/revolusie-indonesie.jfif" alt="">
@@ -82,28 +89,43 @@
                     Vooral duidelijk zichtbaar op zijn foto’s: drama.
                 </p>
             </div>
-            <div class="openingstijden">
+            <div id="openingstijden">
                 <h2>
-                    openingstijden
+                    Openingstijden
                 </h2>
                 <p>
-                   nu tijdelijk gesloten
+                   Nu tijdelijk gesloten
                 </p>
             </div>
-            <figure class="reviews">
-                <div class="de-naam"> anne van bos ⭐⭐⭐⭐⭐
+            <figure id="reviews">
+                <div class="de-naam"> Anne van Bos ⭐⭐⭐⭐⭐
                     <p class="comment-anne"> ik vond het heel vindig</p>
                </div>
                 <div class="de-naam">
-                    pieter appelo ⭐⭐⭐⭐⭐
-                    <p class="comment-pieter">ik vind dat het een helle ervarende ervaring was</p>
+                    Pieter Appelo ⭐⭐⭐⭐⭐
+                    <p class="comment-pieter">Ik vind dat het een helle ervarende ervaring was</p>
                 </div>
                 <div class="de-naam">
-                    sebastiaan van der braake ⭐
+                    Sebastiaan van der Braake ⭐
                     <p class="comment-toxic">DIT MUSEUM WAS ZO SAAI DAT MIJN OGEN ZWART WIT BEGONEN TE ZIEN</p>
                 </div>
             </figure>
-            
+        <div class="container" id="route">
+            <img id="myimage" src="" height="600px" alt="interactive route">
+            <div id="myinteraction">
+                <div id="mytitle">hiet komt de title</div>
+                <input type="text" id="myinput">
+                <input type="button" value="voer in" name="" id="getinput()">
+                <h3>kiet wilke richting je op wilt:</h3>
+                <nav>
+                    <button id=noord onclick="godirection('noord')">Noord</button>
+                    <button id=oost onclick="godirection('oost')">Oost</button>
+                    <button id=zuid onclick="godirection('zuid')">Zuid</button>
+                    <button id=west onclick="godirection('west')">West</button>
+                </nav>
+                <img src="" id="mapimage">
+            </div>
+        </div>
     </article>
     <footer>
         <p>Gemaakt door Dylan van Ling en jan van foreest</p>
@@ -113,6 +135,7 @@
             E-mail: info@rijksmuseum.nl |
             Telefoonnummer: +31 (0) 20 6747 000</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>

@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-size: 20px;
     font-family: sans-serif;
@@ -25,14 +29,6 @@ article{
     padding: 40px;
 }
 
-
-.advertentie{
-    height: 600px;
-    width: 0px;
-    position: absolute;
-    top: 1000px;
-    left: 10px;
-}
 .advertentie2{
     height: 0px;
     width: 175px;
@@ -50,50 +46,69 @@ p{
     margin-bottom: 10px;
 }
 
+article > div{
+    height: 200px;
+    margin-top: 40px;
+}
 
-div{
+figure > div{
     height: 200px;
     margin-top: 40px;
 }
 
 header{
-    background-color: #003C81;
+    background-color: rgb(39, 39, 39);
     height: 60px;
     color: white;
-    margin: 0 auto;
-    padding-left: 340px;
-    padding-top: 10px;
 }
 
-.openingstijden{
-    border: 5px solid #4c00ff;
+
+.red{
+    background-color: rgb(255, 0, 0);
+}
+
+nav{
+    width: 70vw;
+    height: 100%;
+    margin: 0 auto;
+}
+
+nav > ul{
+    display: flex;
+    list-style: none;
+    height: 100%;
+    width: 100%;
+}
+
+nav > ul > li{
+    width: 100%;
+    height: 100%;
+}
+
+nav > ul > li > a{
+     height: 100%;
+     width: 100%;
+     display: flex;
+     justify-content: space-evenly;
+     text-decoration: none;
+     color: white;
+}
+
+#openingstijden{
+    margin-top: 60px;
+    border: 5px solid #0D2546;
     width: 300px;
     height: auto;
     border-radius: 15px;
 }
-span{
-    word-spacing: 100px;
-}
 
-.language{
-    bottom: 60px;
-    left: 100px;
-}
-
-a{
-    color: white;
-    right: 5%;
-    background: #0D2546;
-    position: absolute;
-}
-
-.reviews{
+#reviews{
     width: 500px;
     font-size: 30px;
 }
 .de-naam{
     font-size: 30px;
-    border: 3px solid #003C81;
+    border: 3px solid #0D2546;
     border-radius: 10px;
 }
 
@@ -125,7 +140,6 @@ footer > p{
     width: 60vw;
     margin: 0 auto;
     padding-left: 40px;
-    margin-bottom: 0;
 }
 
 .tentoonsteling{
@@ -146,7 +160,26 @@ footer > p{
     margin-bottom: 80px;
 }
 
-@media screen and (max-width:1150px) {
+.container{
+    width: 60vw;
+    height: 600px;
+    background-color: rgb(181, 220, 255);
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: auto auto;
+    border-radius: 50px;
+    border: 4px solid #0D2546;
+}
+
+#mapimage{
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:1400px) {
     article{
         width: 80vw;
     }
@@ -158,7 +191,13 @@ footer > p{
     }
 }
 
-@media screen and (max-width:860px) {
+@media screen and (max-width:1300px) {
+    footer{
+        height: 140px;
+    }
+}
+
+@media screen and (max-width:1050px) {
     body{
         font-size: 16px;
     }
